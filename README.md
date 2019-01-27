@@ -1,4 +1,4 @@
-需要事先下载好的工具有：
+需要事先下载安装好的工具有：
 * Xcode（提供iOS模拟器）
 * Android Studio（提供安卓模拟器）
 * IDEA（用来编写Flutter项目， 使用Android Studio或者VSCode也可，个人推荐使用IDEA）
@@ -6,6 +6,7 @@
 ---
 
 **1.**  先下载Flutter SDK（内含Dart SDK）。可以去官网下载Zip文件，或者通过终端git方式下载：
+
 `git clone -b beta https://github.com/flutter/flutter.git`
 
 **2.** 下载完成后，手动解压Flutter SDK到某一目录下，或者使用命令行方式解压：
@@ -22,7 +23,7 @@ export PATH=$PATH:SDK安装目录/flutter/bin
 
 **4.** 然后执行`flutter doctor`命令来运行Flutter检测程序, 并根据检测程序的提示安装所需要的插件
 > **注意**：
-Android Studio错误多半是因为Android Studio没有安装Flutter插件，新建一个Flutter项目，然后用Android Studio打开Flutter项目，Android Studio就会在右下角弹框提示你安装插件，然后根据点击提示框安装即可，详细步骤见后面几步。
+Android Studio错误多半是因为Android Studio没有安装Flutter插件，新建一个Flutter项目，然后用Android Studio打开Flutter项目，Android Studio就会在右下角弹框提示你安装插件，然后点击提示框安装即可，详细步骤见后面几步。
 
 **5.** 可以使用IDEA 或者命令行方式创建Flutter项目：
 ```
@@ -31,7 +32,16 @@ flutter create 项目名称
 ```
 > 注： 编写Flutter项目可以使用IDEA，IDEA需要安装Flutter组件，在 IDEA的 偏好设置-插件 中搜索、安装Flutter插件
 
-**6.** 查看可使用的模拟器：
+
+**6.** 打开Android Studio， 然后用Studio打开前面创建的flutter项目，右下角会提示安装flutter插件，根据提示安装即可, 然后重启studio。
+
+**7.** 安卓Studio菜单栏Tools - AVD Manager 添加安卓模拟器
+> 注： 安装模拟器最后一步，模拟性能`Graphics`一栏选择硬件(hardware)模拟
+
+
+---
+
+使用命令行方式查看可使用的模拟器：
 ```
 flutter emulator
 ```
@@ -41,14 +51,13 @@ flutter emulator --launch 模拟器名字
 ```
 就会打开模拟器。
 
-**7.** 运行项目:
+---
+
+使用命令行方式运行项目:
 ```
+cd 到项目目录下
 flutter run
 ```
-
-**8.** 打开Android Studio， 然后用Studio打开前面创建的flutter项目，右下角会提示安装flutter插件，根据提示安装即可, 然后重启studio。
-**9.** 安卓Studio菜单栏Tools - AVD Manager 添加安卓模拟器
-> 注： 安装模拟器最后一步，模拟性能`Graphics`一栏选择硬件(hardware)模拟
 
 ---
 ---
