@@ -5,7 +5,8 @@
 
 ---
 
-**1.**  先下载Flutter SDK（内含Dart SDK）。可以去官网下载Zip文件，或者通过终端git方式下载：`git clone -b beta https://github.com/flutter/flutter.git`
+**1.**  先下载Flutter SDK（内含Dart SDK）。可以去官网下载Zip文件，或者通过终端git方式下载：
+`git clone -b beta https://github.com/flutter/flutter.git`
 
 **2.** 下载完成后，手动解压Flutter SDK到某一目录下，或者使用命令行方式解压：
 ```
