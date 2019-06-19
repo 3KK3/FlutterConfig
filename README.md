@@ -1,7 +1,7 @@
 需要事先下载安装好的工具有：
 * Xcode（提供iOS模拟器）
 * Android Studio（提供安卓模拟器）
-* IDEA（用来编写Flutter项目， 使用Android Studio或者VSCode也可，个人推荐使用IDEA）
+* IDEA（用来编写Flutter项目， 使用Android Studio或者VSCode也可，个人偏向使用IDEA）
 
 ---
 
