@@ -20,7 +20,7 @@ Finder前往文件夹：`~/.bash_profile`， `bash_profile`打开文件(该文�
 ```
 export PATH=$PATH:SDK安装目录/flutter/bin
 ```
-
+然后命令行加载配置： source ~/.bash_profile
 **4.** 然后执行`flutter doctor`命令来运行Flutter检测程序, 并根据检测程序的提示安装所需要的插件
 > **注意**：
 Android Studio错误多半是因为Android Studio没有安装Flutter插件，新建一个Flutter项目，然后用Android Studio打开Flutter项目，Android Studio就会在右下角弹框提示你安装插件，然后点击提示框安装即可，详细步骤见后面几步。
